@@ -3,4 +3,5 @@ export class TA {
     Description: string;
     Email: string;
     PhoneNumber: string;
+    PicturePath: string;
 }

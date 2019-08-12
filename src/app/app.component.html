@@ -4,4 +4,20 @@
     Hello
     Welcome to {{ title }}!
   </h1>
+  <div *ngFor="let officeHour of officeHours">
+    <mat-card style="margin: 20px;">
+      <mat-card-title>
+        {{officeHour.TA.Name}}
+      </mat-card-title>
+      <mat-card-subtitle>{{officeHour.TA.Description}}</mat-card-subtitle>
+      <img width="100" src="{{officeHour.TA.PicturePath}}">
+      <mat-card-content>
+        {{officeHour.StartTime}} - {{officeHour.EndTime}}
+      </mat-card-content>
+      <mat-card-content>
+        {{officeHour.Location}}
+      </mat-card-content>
+    </mat-card>
+  </div>
+
 </div>
