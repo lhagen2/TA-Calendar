@@ -7,7 +7,7 @@ import { WeekDay } from '@angular/common';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatRadioModule} from '@angular/material/radio';
 import {formatDate} from '@angular/common';
-
+import * as moment from 'moment';
 
 @Component({
   selector: 'app-root',
@@ -22,8 +22,9 @@ export class AppComponent {
   class = "155";
   hours155: object[];
   hours156: object[];
-  myWeekday = this.WeekDays[new Date().getDay()];
-  myTime = new Date().getHours();
+  today = new Date();
+  myWeekday = this.WeekDays[this.today.getDay()];
+  myTime = moment(this.today.toLocaleTimeString(), "LT");
 
   constructor(accessor: TaAccessorService) {
     this.hours155 = accessor.getOfficeHours155();
@@ -42,9 +43,12 @@ export class AppComponent {
 
     this.officeHours.forEach(item => {
       let entry = item as TimeEntry;
-      if(this.WeekDays[entry.WeekDay.toString()] == this.myWeekday 
-      //&& parseInt(entry.StartTime.split(':')[0]) > this.myTime
-      ){
+
+      let endTime = moment(entry.EndTime, "LT");
+      console.log(endTime);
+      console.log(this.myTime);
+
+      if(this.WeekDays[entry.WeekDay.toString()] == this.myWeekday && endTime > this.myTime){
         hours.push(entry);
       }
     });

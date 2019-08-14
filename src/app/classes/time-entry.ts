@@ -14,5 +14,6 @@ export class TimeEntry {
     TA: TA;
     WeekDay: WeekDay
     StartTime: string;
+    EndTime: string;
     Location: string;
 }

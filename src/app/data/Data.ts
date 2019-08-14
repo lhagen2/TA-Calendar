@@ -66,112 +66,112 @@ export var OfficeHours155 = [
     {
         "TA": TAs155[1],
         "WeekDay": WeekDay.Monday,
-        "StartTime": "8:30AM",
-        "EndTime": "11:30AM",
+        "StartTime": "08:30 AM",
+        "EndTime": "11:30 AM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs155[3],
         "WeekDay": WeekDay.Monday,
-        "StartTime": "10:30AM",
-        "EndTime": "11:30AM",
+        "StartTime": "10:30 AM",
+        "EndTime": "11:30 AM",
         "Location": "Avery 15",
         "Class": "155"
     },
     {
         "TA": TAs155[2],
         "WeekDay": WeekDay.Monday,
-        "StartTime": "11:00AM",
-        "EndTime": "12:00PM",
+        "StartTime": "11:00 AM",
+        "EndTime": "12:00 PM",
         "Location": "Avery 15",
         "Class": "155"
     },
     {
         "TA": TAs155[0],
         "WeekDay": WeekDay.Monday,
-        "StartTime": "12:00PM",
-        "EndTime": "2:00PM",
+        "StartTime": "12:00 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs155[4],
         "WeekDay": WeekDay.Monday,
-        "StartTime": "4:30PM",
-        "EndTime": "6:30PM",
+        "StartTime": "04:30 PM",
+        "EndTime": "06:30 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs155[0],
         "WeekDay": WeekDay.Tuesday,
-        "StartTime": "12:00PM",
-        "EndTime": "2:00PM",
+        "StartTime": "12:00 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs155[3],
         "WeekDay": WeekDay.Tuesday,
-        "StartTime": "12:45PM",
-        "EndTime": "2:00PM",
+        "StartTime": "12:45 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 15",
         "Class": "155"
     },
     {
         "TA": TAs155[2],
         "WeekDay": WeekDay.Wednesday,
-        "StartTime": "11:00AM",
-        "EndTime": "12:00PM",
+        "StartTime": "11:00 AM",
+        "EndTime": "12:00 PM",
         "Location": "Avery 15",
         "Class": "155"
     },
     {
         "TA": TAs155[0],
         "WeekDay": WeekDay.Wednesday,
-        "StartTime": "12:00PM",
-        "EndTime": "2:00PM",
+        "StartTime": "12:00 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs155[4],
         "WeekDay": WeekDay.Wednesday,
-        "StartTime": "3:00PM",
-        "EndTime": "6:00PM",
+        "StartTime": "03:00 PM",
+        "EndTime": "06:00 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs155[0],
         "WeekDay": WeekDay.Thursday,
-        "StartTime": "12:00PM",
-        "EndTime": "2:00PM",
+        "StartTime": "12:00 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs155[3],
         "WeekDay": WeekDay.Thursday,
-        "StartTime": "12:45PM",
-        "EndTime": "2:00PM",
+        "StartTime": "012:45 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 15",
         "Class": "155"
     },
     {
         "TA": TAs155[0],
         "WeekDay": WeekDay.Friday,
-        "StartTime": "12:00PM",
-        "EndTime": "2:00PM",
+        "StartTime": "012:00 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs155[3],
         "WeekDay": WeekDay.Friday,
-        "StartTime": "12:30PM",
-        "EndTime": "1:30PM",
+        "StartTime": "12:30 PM",
+        "EndTime": "01:30 PM",
         "Location": "Avery 15",
         "Class": "155"
     },
@@ -182,112 +182,112 @@ export var OfficeHours156 = [
     {
         "TA": TAs156[1],
         "WeekDay": WeekDay.Monday,
-        "StartTime": "8:30AM",
-        "EndTime": "11:30AM",
+        "StartTime": "08:30 AM",
+        "EndTime": "11:30 AM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs156[3],
         "WeekDay": WeekDay.Monday,
-        "StartTime": "10:30AM",
-        "EndTime": "11:30AM",
+        "StartTime": "10:30 AM",
+        "EndTime": "11:30 AM",
         "Location": "Avery 15",
         "Class": "155"
     },
     {
         "TA": TAs156[2],
         "WeekDay": WeekDay.Monday,
-        "StartTime": "11:00AM",
-        "EndTime": "12:00PM",
+        "StartTime": "11:00 AM",
+        "EndTime": "12:00 PM",
         "Location": "Avery 15",
         "Class": "155"
     },
     {
         "TA": TAs156[0],
         "WeekDay": WeekDay.Monday,
-        "StartTime": "12:00PM",
-        "EndTime": "2:00PM",
+        "StartTime": "12:00 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs156[1],
         "WeekDay": WeekDay.Monday,
-        "StartTime": "4:30PM",
-        "EndTime": "6:30PM",
+        "StartTime": "04:30 PM",
+        "EndTime": "06:30 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs156[0],
         "WeekDay": WeekDay.Tuesday,
-        "StartTime": "12:00PM",
-        "EndTime": "2:00PM",
+        "StartTime": "12:00 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs156[3],
         "WeekDay": WeekDay.Tuesday,
-        "StartTime": "12:45PM",
-        "EndTime": "2:00PM",
+        "StartTime": "12:45 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 15",
         "Class": "155"
     },
     {
         "TA": TAs156[2],
         "WeekDay": WeekDay.Wednesday,
-        "StartTime": "11:00AM",
-        "EndTime": "12:00PM",
+        "StartTime": "11:00 AM",
+        "EndTime": "12:00 PM",
         "Location": "Avery 15",
         "Class": "155"
     },
     {
         "TA": TAs156[0],
         "WeekDay": WeekDay.Wednesday,
-        "StartTime": "12:00PM",
-        "EndTime": "2:00PM",
+        "StartTime": "12:00 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs156[2],
         "WeekDay": WeekDay.Wednesday,
-        "StartTime": "3:00PM",
-        "EndTime": "6:00PM",
+        "StartTime": "03:00 PM",
+        "EndTime": "06:00 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs156[0],
         "WeekDay": WeekDay.Thursday,
-        "StartTime": "12:00PM",
-        "EndTime": "2:00PM",
+        "StartTime": "12:00 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs156[3],
         "WeekDay": WeekDay.Thursday,
-        "StartTime": "12:45PM",
-        "EndTime": "2:00PM",
+        "StartTime": "12:45 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 15",
         "Class": "155"
     },
     {
         "TA": TAs156[0],
         "WeekDay": WeekDay.Friday,
-        "StartTime": "12:00PM",
-        "EndTime": "2:00PM",
+        "StartTime": "12:00 PM",
+        "EndTime": "02:00 PM",
         "Location": "Avery 12",
         "Class": "155"
     },
     {
         "TA": TAs156[3],
         "WeekDay": WeekDay.Friday,
-        "StartTime": "12:30PM",
-        "EndTime": "1:30PM",
+        "StartTime": "12:30 PM",
+        "EndTime": "01:30 PM",
         "Location": "Avery 15",
         "Class": "155"
     },

@@ -4,7 +4,7 @@
     Welcome to the CSE-LAP Office Hours feed!   
   </h1>
 <h2>
-    You are now viewing upcoming office hours for:
+    You are now viewing today's upcoming office hours for:
   <mat-radio-group [(ngModel)]="class" (change)="updateHours(class)">
       <mat-radio-button [value]="155" style="padding-left: .5em">
         155 
@@ -13,7 +13,7 @@
         156
       </mat-radio-button>
   </mat-radio-group>
-  </h2>
+</h2>
 
   <div *ngFor="let officeHour of officeHours">
     <mat-card style="margin: 20px;">
