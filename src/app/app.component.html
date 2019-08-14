@@ -1,23 +1,50 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div style="text-align:center">
   <h1>
-    Hello
-    Welcome to {{ title }}!
+    Welcome to the CSE-LAP Office Hours feed!   
   </h1>
+<h2>
+    You are now viewing upcoming office hours for:
+  <mat-radio-group [(ngModel)]="class" (change)="updateHours(class)">
+      <mat-radio-button [value]="155" style="padding-left: .5em">
+        155 
+      </mat-radio-button> 
+      <mat-radio-button [value]="156" style="padding-left: 1em">
+        156
+      </mat-radio-button>
+  </mat-radio-group>
+  </h2>
+
   <div *ngFor="let officeHour of officeHours">
     <mat-card style="margin: 20px;">
-      <mat-card-title>
-        {{officeHour.TA.Name}}
-      </mat-card-title>
-      <mat-card-subtitle>{{officeHour.TA.Description}}</mat-card-subtitle>
-      <img width="100" src="{{officeHour.TA.PicturePath}}">
-      <mat-card-content>
-        {{officeHour.StartTime}} - {{officeHour.EndTime}}
-      </mat-card-content>
-      <mat-card-content>
-        {{officeHour.Location}}
-      </mat-card-content>
+        <mat-grid-list cols="3" rowHeight="3:1">
+            <mat-grid-tile>
+                <mat-card-title>
+                {{officeHour.TA.Name}}
+                </mat-card-title>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-card-title>
+                  {{officeHour.StartTime}} - {{officeHour.EndTime}}
+                </mat-card-title>
+            </mat-grid-tile>
+            <mat-grid-tile>
+                <mat-card-title>
+                    {{officeHour.Location}}
+                </mat-card-title>
+            </mat-grid-tile>
+          </mat-grid-list>
+
+          <mat-grid-list cols="2" rowHeight="3:1">
+              <mat-grid-tile>
+                  <img height="300" src="{{officeHour.TA.PicturePath}}">
+              </mat-grid-tile>
+              <mat-grid-tile>
+                  <mat-card-subtitle>{{officeHour.TA.Description}}</mat-card-subtitle>
+              </mat-grid-tile>
+            </mat-grid-list>
     </mat-card>
+
   </div>
 
 </div>

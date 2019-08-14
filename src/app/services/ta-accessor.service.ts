@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { TAs, OfficeHours } from '../data/Data';
+import { TAs155, TAs156, OfficeHours155, OfficeHours156 } from '../data/Data';
+import { TimeEntry } from '../classes/time-entry';
 
 @Injectable({
   providedIn: 'root'
@@ -11,9 +12,12 @@ export class TaAccessorService {
 
   constructor(private http: HttpClient) { }
 
-  getDatabase() {
-    return OfficeHours;
+  getOfficeHours155() {
+    return OfficeHours155;
+  }
 
+  getOfficeHours156() {
+    return OfficeHours156;
   }
 }
 
