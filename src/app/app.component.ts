@@ -45,13 +45,43 @@ export class AppComponent {
       let entry = item as TimeEntry;
 
       let endTime = moment(entry.EndTime, "LT");
-      console.log(endTime);
-      console.log(this.myTime);
 
       if(this.WeekDays[entry.WeekDay.toString()] == this.myWeekday && endTime > this.myTime){
         hours.push(entry);
       }
     });
+
+    if (hours === undefined || hours.length == 0) {
+      this.showTomorrow();
+    } else {
+      document.getElementById("tomorrow").innerHTML = "";
+      this.officeHours = hours;
+    }
+  }
+
+  showTomorrow(){
+    document.getElementById("tomorrow").innerHTML = "There are no remaining office hours for today. Here are tomorrow's:";
+      
+    //weekday = tomorrow
+    this.today.setDate(this.today.getDate() + 1);
+    this.myWeekday = this.WeekDays[this.today.getDay()];
+
+    var hours = [];
+
+    //load officehours from myweekday being tomorrow
+    this.officeHours.forEach(item => {
+      let entry = item as TimeEntry;
+
+      let endTime = moment(entry.EndTime, "LT");
+
+      if(this.WeekDays[entry.WeekDay.toString()] == this.myWeekday){
+        hours.push(entry);
+      }
+    });
+
+    //change weekday back to today
+    this.today.setDate(this.today.getDate() - 1);
+    this.myWeekday = this.WeekDays[this.today.getDay()];
 
     this.officeHours = hours;
   }
