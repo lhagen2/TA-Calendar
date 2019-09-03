@@ -46,7 +46,8 @@ export class AppComponent {
 
       let endTime = moment(entry.EndTime, "LT");
 
-      if(this.WeekDays[entry.WeekDay.toString()] == this.myWeekday && endTime > this.myTime){
+      if(this.WeekDays[entry.WeekDay.toString()] == this.myWeekday && endTime > this.myTime
+      ){
         hours.push(entry);
       }
     });

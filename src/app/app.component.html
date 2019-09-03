@@ -7,7 +7,7 @@
         </mat-grid-tile>
         <mat-grid-tile colspan='6'>
             <h1>
-                CSE Learning Assistant Program Office Hours  
+              CSE Learning Assistant Office Hours 
             </h1>
         </mat-grid-tile>
         <mat-grid-tile colspan='2'>
@@ -15,7 +15,7 @@
       </mat-grid-list>
     <hr>
 <h2>
-    Upcoming office hours for:
+    Upcoming {{this.myWeekday}} office hours for:
   <mat-radio-group [(ngModel)]="class" (change)="updateHours(class)">
       <mat-radio-button [value]="155" style="padding-left: .5em">
         155 
